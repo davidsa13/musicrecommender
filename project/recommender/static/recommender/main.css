@@ -1,0 +1,118 @@
+body {
+    background: #282A2D;
+    color: #333333;
+    margin-top: 5rem;
+  }
+
+  .home {
+    background-image: url(/static/2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: rgb(27, 27, 27);
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #111010;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 0px 0px;
+  }
+  
+  .article-title {
+    color: #ffffff;
+    padding: 0px 10px 0px 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #272626
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+.top-header {
+    width:100%;
+    max-width: 960px;
+    font: 6em "Amatic SC", cursive;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    margin: 200px 125px;
+    text-align: center;
+
+
+  
+  
+}
+
+.center {
+  display: block;
+  margin-left: Auto;
+  margin-right: Auto;
+  width: 110%;
+}

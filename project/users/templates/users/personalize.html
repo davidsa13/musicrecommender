@@ -1,0 +1,28 @@
+{% extends "recommender/base.html" %}
+{% block content %}
+    <div class="row">
+    <div class="col-md-8">
+        {% for key, value in contentrec.items %}
+            <article class="media content-section">
+                <div class="button">
+                    <form action="{% url 'likepost2' %}" method="post">
+                        {% csrf_token%}
+                        <button type="submit" name ="post_id" value= "{{ value }}" class="btn btn-dark"> Like</button>
+                    </form>
+                </div>
+                <p class="article-title">{{ key }} </p>
+            </article>
+        {% endfor %}   
+    </div>
+    <div class="col-md-2">
+        <div>
+        <p>
+            <ul class="list-group">
+                <li class="list-group-item list"><a class = "list-text" href="{% url 'setting' %}">Account</a></li>
+                <li class="list-group-item list"><a class = "list-text" href="{% url 'personalize' %}">Personalize</a></li>
+            </ul>
+        </p>
+        </div>
+    </div>
+    </div>
+{% endblock content %}
